@@ -1,0 +1,1 @@
+exports.build = series(scsstalk, jstalk)

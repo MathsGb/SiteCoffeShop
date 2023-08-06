@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafe Menu</title>
-    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}" />
   </head>
   <body>
     <div class="menu">
-      <main>
+      <main action="/" method="GET">
         <h1>CAMPER CAFE</h1>
         <p class="established">Est. 2020</p>
         <hr>
